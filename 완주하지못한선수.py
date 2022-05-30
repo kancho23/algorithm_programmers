@@ -1,8 +1,4 @@
-# This is a sample Python script.
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
+#1번 풀이
 def solution(participant, completion):
     answer = ""
     # 정렬해서 배열한다
@@ -19,6 +15,7 @@ def solution(participant, completion):
 
     return answer
 
+#2번 풀이
 def solution(participant, completion):
     hashDict = {}
     sumHash = 0
@@ -37,6 +34,7 @@ def solution(participant, completion):
     #달리지 않은 사람의 숫자는 sumHash이고,
     #이를 다시 hashDict[]에 넣으면, 사람 이름이 튀어나온다.
 
+#3번 풀이
 import collections
 def solution(participant, completion):
     #리스트를 가지고 counter를 생성하면, key가 이름이고 value가 count인 딕셔너리 반환
